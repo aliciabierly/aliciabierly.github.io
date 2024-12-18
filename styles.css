@@ -19,18 +19,18 @@ body {
 
 /* Blue border container (outer) */
 .blue-border {
-    background-color: #1b4f9b; /* Blue background */
+    background-color: #2c5f2d; /* Blue background */
     padding: 20px; /* Padding to create space */
-    border: 5px solid #1b4f9b; /* Solid blue border */
+    border: 5px solid #2c5f2d; /* Solid blue border */
     border-radius: 10px; /* Rounded corners */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Optional: Box shadow for depth */
 }
 
 /* Orange border container (inner) */
 .orange-border {
-    background-color: #f58634; /* Orange background */
+    background-color: #97bc62ff; /* Orange background */
     padding: 20px; /* Padding inside the orange box */
-    border: 5px solid #f58634; /* Solid orange border */
+    border: 5px solid #97bc62ff; /* Solid orange border */
     border-radius: 10px; /* Rounded corners */
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Optional: Box shadow */
     color: #000; /* Black text for readability */
