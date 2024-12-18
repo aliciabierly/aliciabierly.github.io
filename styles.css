@@ -1,0 +1,54 @@
+h1 {
+    margin: 0;
+    padding: 20px 0;
+    color: #00539f;
+    text-shadow: 3px 3px 1px black;
+
+  }
+
+/* Reset body to center content */
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    min-height: 100vh; /* Full viewport height */
+    background-color: #f5f5f5; /* Optional: Light background for visibility */
+}
+
+/* Blue border container (outer) */
+.blue-border {
+    background-color: #1b4f9b; /* Blue background */
+    padding: 20px; /* Padding to create space */
+    border: 5px solid #1b4f9b; /* Solid blue border */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Optional: Box shadow for depth */
+}
+
+/* Orange border container (inner) */
+.orange-border {
+    background-color: #f58634; /* Orange background */
+    padding: 20px; /* Padding inside the orange box */
+    border: 5px solid #f58634; /* Solid orange border */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Optional: Box shadow */
+    color: #000; /* Black text for readability */
+    text-align: center;
+}
+
+/* General styles for the page */
+header, section, footer {
+    margin: 10px 0;
+    text-align: left; /* Align text to the left */
+}
+
+h1, h2, h3, h4 {
+    margin: 10px 0;
+    font-family: Arial, sans-serif;
+}
+
+p, li {
+    font-size: 16px;
+    line-height: 1.5;
+}
