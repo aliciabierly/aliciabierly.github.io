@@ -1,24 +1,30 @@
-h1 {
-    margin: 0;
-    padding: 20px 0;
-    color: #00539f;
-    text-shadow: 3px 3px 1px black;
-
-  }
-
-/* Reset body to center content */
 body {
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center; /* Center horizontally */
-    align-items: center; /* Center vertically */
-    min-height: 100vh; /* Full viewport height */
-    background-color: #f5f5f5; /* Optional: Light background for visibility */
+  font-family: Arial, sans-serif;
 }
 
-/* General styles for the page */
-header, section, footer {
-    margin: 10px 0;
-    text-align: left; /* Align text to the left */
+.tabs {
+  display: flex;
+  border-bottom: 2px solid #ccc;
+}
+
+.tab-button {
+  padding: 10px 20px;
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.tab-button.active {
+  border-bottom: 3px solid #007BFF;
+  font-weight: bold;
+}
+
+.tab-content {
+  display: none;
+  padding: 20px;
+}
+
+.tab-content.active {
+  display: block;
 }
