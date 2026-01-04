@@ -16,3 +16,9 @@ body {
     min-height: 100vh; /* Full viewport height */
     background-color: #f5f5f5; /* Optional: Light background for visibility */
 }
+
+/* General styles for the page */
+header, section, footer {
+    margin: 10px 0;
+    text-align: left; /* Align text to the left */
+}
